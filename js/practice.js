@@ -9,4 +9,4 @@ const options = {
     background: "red",
   },
 };
-console.log(options.name);
+console.log(options.width);
