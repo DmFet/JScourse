@@ -7,7 +7,6 @@ function start() {
     numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
   }
 }
-
 start();
 
 const personalMovieDB = {
@@ -32,7 +31,6 @@ function rememberMyFilms() {
     }
   }
 }
-
 rememberMyFilms();
 
 function detectPersonalLevel() {
@@ -46,7 +44,6 @@ function detectPersonalLevel() {
     console.log("Произошла ошибка");
   }
 }
-
 detectPersonalLevel();
 
 function showMyDB(hidden) {
@@ -54,7 +51,6 @@ function showMyDB(hidden) {
     console.log(personalMovieDB);
   }
 }
-
 showMyDB(personalMovieDB.privat);
 
 function writeYourGenres() {
@@ -62,5 +58,4 @@ function writeYourGenres() {
     personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
   }
 }
-
 writeYourGenres();
