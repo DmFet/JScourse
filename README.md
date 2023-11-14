@@ -1,2 +1,0 @@
-# JScourse
-SO HAAAAAAARD

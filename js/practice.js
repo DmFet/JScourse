@@ -8,5 +8,28 @@ const options = {
     border: "black",
     background: "red",
   },
+  makeTest: function () {
+    console.log("Test");
+  },
 };
-console.log(options.width);
+
+options.makeTest();
+
+const { border, background } = options.colors;
+console.log(border);
+
+console.log(Object.keys(options).length);
+// console.log(options);
+// let counter = 0;
+// for (let key in options) {
+//   if (typeof options[key] === "object") {
+//     for (let i in options[key]) {
+//       console.log(`Свойство ${i} имеет значение: ${options[key][i]}`);
+//       counter++;
+//     }
+//   } else {
+//     console.log(`Свойство ${key} имеет значение: ${options[key]}`);
+//     counter++;
+//   }
+// }
+// console.log(counter);
